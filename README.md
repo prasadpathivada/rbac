@@ -30,8 +30,32 @@ _ Instal  JDK  from >> https://download.oracle.com/java/23/latest/jdk-23_windows
   -GENERATE THE FILE
    - FILE IS DOWNLOADING ON ZIP
    - THE ZIP FILE Extract to the visual studio Code
+ 
+#  Usage :
+# Project Structure:
+src
+main
+java
+com
+example
+OJT
+OjtApplication.java // main method class
+config >> AppConfig.java >> SecurityConfig.java // Spring Security configuration >> WebSecurityConfigurerAdapter.java
+controllers >> UserController.java // REST controller for authentication
+models >> User.java // User entity
+repository >> UserRepository.java // User repository interface
+service >> UserService.java // User service class
+utils >> JwtUtil.java // JWT utility class
+filter >> JwtAuthenticationFilter.java
+resources >> application.properties
+By using this project structure develop the backend application
+Run the OjtApplication.java file, the Spring Boot application will starts.
+# Environment Variables:
+DATABASE_URL= jdbc:mysql://localhost:3306/rbac_db
+JWT_SECRET= sS0RJc6PNefnp+2awVYXxYNnDW2EAwavBO4ZCRCJEX4=
   
-                
+# lisence
+
                    
  
 
