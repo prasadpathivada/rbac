@@ -34,7 +34,7 @@ Login: Users can log in using their credentials.
 Register: New users can create an account.
 # Environment Variables:
 Update the API base URL in your Axios configuration file to point to your backend server.
-For example, in src/authService.js, set: const API_URL = "http://localhost:8080/auth/";
+For example, in src/authService.js, set: const API_URL = "http://localhost:8081/auth/";
 # Deployment:
 install the gh-pages package
 The package allows us to publish build files into a gh-pages
